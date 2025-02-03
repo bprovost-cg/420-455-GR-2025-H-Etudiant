@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">E2_2</string>
+    <string name="name_prompt">Quel est votre nom?</string>
+    <string name="name_hint">Veuillez saisir votre nom</string>
+    <string name="button_ok">OK</string>
+    <string name="enter_name">Veuillez saisir votre nom</string>
+    <string name="patate">patate</string>
+</resources>
