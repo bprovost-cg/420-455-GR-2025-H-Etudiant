@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">E4</string>
+    <string name="action_send">Envoyer</string>
+    <string name="label_title">Titre</string>
+    <string name="label_to">À</string>
+    <string name="chooser_send_with">Envoyez avec ...</string>
+    <string name="error_no_mail_client_available">Aucun client mail disponible</string>
+    <string name="action_take_photo">Prendre photo</string>
+    <string name="content_description_thumbnail_preview">Aperçu de la photo</string>
+    <string name="error_activity_not_found">L\'activité %s n\'a pas été trouvée, l\'avez-vous bien définie dans AndroidManifest.xml?</string>
+</resources>

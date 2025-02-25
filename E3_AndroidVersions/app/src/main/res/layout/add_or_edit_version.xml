@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:text="@string/name_label" />
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/name_label"
+        android:hint="@string/name_hint"
+        android:inputType="textNoSuggestions" />
+
+    <TextView
+        android:id="@+id/code_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text"
+        android:text="@string/code_label" />
+
+    <EditText
+        android:id="@+id/code_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/code_label"
+        android:hint="@string/code_hint"
+        android:inputType="textNoSuggestions" />
+
+    <TextView
+        android:id="@+id/version_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code_text"
+        android:text="@string/version_label" />
+
+    <EditText
+        android:id="@+id/version_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/version_label"
+        android:hint="@string/version_hint"
+        android:inputType="textNoSuggestions" />
+
+    <Button
+        android:id="@+id/create_or_modify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version_text"
+        android:layout_alignParentEnd="true"
+        android:text="@string/create" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version_text"
+        android:layout_toStartOf="@id/create_or_modify_button"
+        android:text="@string/cancel_button" />
+
+</RelativeLayout>

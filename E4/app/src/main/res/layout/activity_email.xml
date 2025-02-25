@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".EmailActivity">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/to_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/to_text"
+            android:text="@string/label_to" />
+
+        <EditText
+            android:id="@+id/to_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/subject_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/subject_text"
+            android:text="@string/label_title" />
+
+        <EditText
+            android:id="@+id/subject_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_column="3"
+            android:text="@string/action_send" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/message_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroidVersions</string>
+    <string name="menu_edit">Modifier</string>
+    <string name="menu_add">Ajouter</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="modify">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="menu_clear">Effacer la liste</string>
+    <string name="name_label">Nom</string>
+    <string name="name_hint">Ex. Android 15</string>
+    <string name="code_label">Nom de code</string>
+    <string name="code_hint">Ex. Vanilla Ice Cream</string>
+    <string name="version_label">Version API/SDK</string>
+    <string name="version_hint">Ex: 35</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="add_dialog_title">Ajouter une version</string>
+    <string name="edit_dialog_title">Modifier cette version</string>
+    <string name="create">Créer</string>
+    <string name="modify_list">Modifier la liste</string>
+</resources>
