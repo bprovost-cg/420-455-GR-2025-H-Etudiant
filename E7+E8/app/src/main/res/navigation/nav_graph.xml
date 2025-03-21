@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/compteurFragment">
+
+    <fragment
+        android:id="@+id/compteurFragment"
+        android:name="com.example.fragments.fragments.CompteurFragment"
+        android:label="@string/fragment_label_compteur"
+        tools:layout="@layout/fragment_compteur">
+        <action
+            android:id="@+id/action_compteurFragment_to_historiqueFragment"
+            app:destination="@id/historiqueFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historiqueFragment"
+        android:name="com.example.fragments.fragments.HistoriqueFragment"
+        android:label="@string/fragment_label_historique"
+        tools:layout="@layout/fragment_historique" />
+</navigation>

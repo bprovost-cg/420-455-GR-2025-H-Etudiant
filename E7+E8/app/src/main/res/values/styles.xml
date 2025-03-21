@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="compteur_valeur">
+        <item name="android:textSize">72sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="historique_valeur">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_decrement">Décrémenter</string>
+    <string name="action_increment">Incrémenter</string>
+    <string name="action_reinitialiser">Réinitialiser</string>
+    <string name="action_go_to_history">Voir l\'historique</string>
+    <string name="text_compteur">0</string>
+    <string name="label_compteur">Valeur actuelle :</string>
+    <string name="operation_incrementation">Incrémentation</string>
+    <string name="operation_decrementation">Décrémentation</string>
+    <string name="operation_reinitialisation">Réinitialisation</string>
+    <string name="fragment_label_compteur">Compteur</string>
+    <string name="fragment_label_historique">Historique</string>
+    <string name="operation_invalid">Opération invalide</string>
+    <string name="historique_operation">%s - %s → %d</string>
+    <string name="dialog_operation">%s → %d</string>
+    <string name="action_ok">Ok</string>
+    <string name="pref_dark_theme_summary">Activer le mode sombre pour l\'application</string>
+    <string name="pref_dark_theme_title">Thème sombre</string>
+    <string name="pref_interface_title">Interface</string>
+    <string name="menu_title_settings">Paramètres</string>
+    <string name="fragment_label_settings">Paramètres</string>
+</resources>
