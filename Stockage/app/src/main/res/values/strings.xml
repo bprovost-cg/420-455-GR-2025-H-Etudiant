@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stockage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_stockage_interne">Interne</string>
+    <string name="action_stockage_externe">Externe</string>
+    <string name="action_stockage_partage">Partagé</string>
+    <string name="edit_text_hint_nom_fichier">Nom du fichier</string>
+    <string name="edit_text_hint_contenu_fichier">Contenu du fichier</string>
+    <string name="action_creer_ou_remplacer">Créer ou remplacer le fichier</string>
+    <string name="action_creer_ou_ajouter">Créer ou ajouter au fichier</string>
+    <string name="action_lire">Lire le fichier</string>
+    <string name="label_list_fichiers">Liste de fichiers</string>
+    <string name="action_creer_ou_remplacer_cache">... en cache</string>
+    <string name="action_creer_ou_ajouter_cache">... en cache</string>
+    <string name="action_lire_cache">... en cache</string>
+    <string name="label_list_fichiers_cache">Liste de fichiers en cache</string>
+    <string name="action_take_photo">Prendre une photo</string>
+    <string name="action_take_video">Prendre une vidéo</string>
+    <string name="action_open_picker">Ouvrir le sélecteur</string>
+</resources>

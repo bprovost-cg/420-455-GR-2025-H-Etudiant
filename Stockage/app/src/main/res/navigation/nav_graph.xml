@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/stockage_interne_fragment">
+    <fragment
+        android:id="@+id/stockage_interne_fragment"
+        android:name="com.example.stockage.StockageInterneFragment"
+        android:label="Stockage interne" />
+    <fragment
+        android:id="@+id/stockage_externe_fragment"
+        android:name="com.example.stockage.StockageExterneFragment"
+        android:label="Stockage externe" />
+    <fragment
+        android:id="@+id/stockage_partage_fragment"
+        android:name="com.example.stockage.StockagePartageFragment"
+        android:label="Stockage partagé" />
+    <action
+        android:id="@+id/go_to_stockage_interne"
+        app:destination="@id/stockage_interne_fragment" />
+
+    <action
+        android:id="@+id/go_to_stockage_externe"
+        app:destination="@id/stockage_externe_fragment" />
+
+    <action
+        android:id="@+id/go_to_stockage_partage"
+        app:destination="@id/stockage_partage_fragment" />
+
+</navigation>

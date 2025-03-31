@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StockageInterneFragment">
+
+    <EditText
+        android:id="@+id/edit_text_nom_fichier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_hint_nom_fichier"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_contenu_fichier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_hint_contenu_fichier"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_creer_ou_remplacer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_creer_ou_remplacer" />
+
+        <Button
+            android:id="@+id/button_creer_ou_remplacer_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_creer_ou_remplacer_cache" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_creer_ou_ajouter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_creer_ou_ajouter" />
+
+        <Button
+            android:id="@+id/button_creer_ou_ajouter_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_creer_ou_ajouter_cache" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_lire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_lire" />
+
+        <Button
+            android:id="@+id/button_lire_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_lire_cache" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="8dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/text_view_lire_contenu_fichier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="8dp"
+        android:background="@android:color/darker_gray" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_list_fichiers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_list_fichiers_cache" />
+        </TableRow>
+
+        <TableRow>
+
+            <ListView
+                android:id="@+id/list_fichiers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <ListView
+                android:id="@+id/list_fichiers_cache"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
